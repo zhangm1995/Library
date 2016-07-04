@@ -7,8 +7,14 @@ import com.test.LibConnection;
 
 public class User {
 	public String cardID;
+	
+	
+	
 	Statement statement = LibConnection.getStatement();
 	
+	public User(){
+		
+	}
 	public User(String cardID){
 		this.cardID = cardID;
 	}

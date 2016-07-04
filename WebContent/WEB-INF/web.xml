@@ -12,12 +12,19 @@
 		<servlet-name>Search</servlet-name>
 		<servlet-class>com.servlet.testServlet</servlet-class>
 	</servlet>
-	
+	<servlet>
+		<servlet-name>LogIn</servlet-name>
+		<servlet-class>com.servlet.LogInServlet</servlet-class>
+	</servlet>
 
 
 	<servlet-mapping>
 		<servlet-name>Search</servlet-name>
 		<url-pattern>/Search</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LogIn</servlet-name>
+		<url-pattern>/LogIn</url-pattern>
 	</servlet-mapping>
 	
 </web-app>
